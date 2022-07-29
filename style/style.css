@@ -5,7 +5,7 @@ body {
   background-position: center;
 }
 #container {
-background-color: firebrick;
+background-color: grey;
 display-flex: flex;
 flex-wrap: wrap;
 width: 600px;
