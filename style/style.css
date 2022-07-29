@@ -1,0 +1,15 @@
+body {
+  background-image: url('./brooke-lark--F_5g8EEHYE-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#container {
+background-color: firebrick;
+display: flex;
+flex-wrap: wrap;
+width: 600px;
+height: 725;
+border-radius: 40px;
+color: white;
+}
