@@ -23,3 +23,9 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
+#btn1 {
+background-color: rgb(153, 153, 220);
+border: none;
+border-radius: 10px;
+padding: 5px;
+}
