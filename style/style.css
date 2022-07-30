@@ -6,7 +6,8 @@ body {
 }
 #container {
 background-color: grey;
-display-flex: flex;
+display: flex;
+flex-direction: column;
 flex-wrap: wrap;
 width: 600px;
 height: 725;
