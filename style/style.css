@@ -14,3 +14,8 @@ height: 725;
 border-radius: 40px;
 color: white;
 }
+form {
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
