@@ -29,3 +29,9 @@ border: none;
 border-radius: 10px;
 padding: 5px;
 }
+#calculate {
+  background-color: rgb(153, 153, 220);
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  }
