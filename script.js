@@ -21,7 +21,7 @@ function calculate(e) {
 
  perPerson = perPerson.toFixed(2);
  amountTip = amountTip.toFixed(2);
- amountTip = amountTip.toFixed(2);
+total = total.toFixed(2);
 
   document.querySelector('#billSplit').textContent = perPerson;
   document.querySelector('#tipSplit').textContent = amountTip;
