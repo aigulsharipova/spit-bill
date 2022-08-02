@@ -17,4 +17,6 @@ function calculate(e) {
   let total = perPerson + amountTip;
 
   document.querySelector('#billSplit').textContent = perPerson;
+  document.querySelector('#tipSplit').textContent = amountTip;
+  document.querySelector('#checkSplit').textContent = total;
 }
