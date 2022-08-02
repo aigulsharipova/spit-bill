@@ -2,7 +2,7 @@
 
 The app can help to split bills from restaurant.
 
-- ## [Restaurant](https://restaurant-splitbill.glitch.me/)
+- ## [Restaurant](https://split-check.glitch.me)
 
 ---
 

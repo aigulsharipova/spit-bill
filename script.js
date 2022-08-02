@@ -11,6 +11,7 @@ function showTip(e) {
 
 function calculate(e) {
   e.preventDefault();
+
   const bill = document.querySelector('#bill').value;
   const people= document.querySelector('#people').value;
   const tip = document.querySelector('#tip').value;
@@ -30,9 +31,7 @@ function calculate(e) {
  amountTip = amountTip.toFixed(2);
  total = total.toFixed(2);
 
-  document.querySelector('#billSpitPerson').textContent = perPerson;
-  document.querySelector('#tipSpitPerson').textContent = amountTip;
-  document.querySelector('#checkSpitPerson').textContent = total;
-
-
+document.querySelector('#billSpitPerson').textContent = perPerson;
+document.querySelector('#tipSpitPerson').textContent = amountTip;
+document.querySelector('#checkSpitPerson').textContent = total;
 }
