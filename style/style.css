@@ -24,14 +24,20 @@ h1 {
   font-family: 'Mochiy Pop One', sans-serif;
   text-align: center;
 }
+p {
+  font-family: 'Rubik', sans-serif;
+}
 input {
   padding: 6px;
+  font-family: 'Rubik', sans-serif;
 }
 #btn1 {
 background-color: rgb(153, 153, 220);
 border: none;
 border-radius: 10px;
 padding: 10px;
+font-family: 'Rubik', sans-serif;
+font-size: 20px;
 }
 #calculate {
   background-color: rgb(153, 153, 220);
@@ -39,4 +45,10 @@ padding: 10px;
   border-radius: 10px;
   border: none;
   margin-top: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  }
+  #tip {
+    font-family: 'Rubik', sans-serif;
+    display: none;
   }
