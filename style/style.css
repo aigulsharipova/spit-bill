@@ -53,3 +53,7 @@ font-size: 15px;
     font-family: 'Rubik', sans-serif;
     display: none;
   }
+  #check {
+  display: flex;
+  justify-content: center;
+  }
