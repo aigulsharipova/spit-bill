@@ -14,4 +14,7 @@ function calculate(e) {
 
   let perPerson = bill/people;
   let amountTip = (bill * tip) / people;
+  let total = perPerson + amountTip;
+
+  document.querySelector('#billSplit').textContent = perPerson;
 }
