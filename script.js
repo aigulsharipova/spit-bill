@@ -2,6 +2,13 @@ const button = document.querySelector('#btn1');
 const buttonTwo = document.querySelector('#btn2');
 
 button.addEventListener('click', calculate);
+buttonTwo.addEventListener('click', showTip);
+
+function showTip(e) {
+  tip.style.display = "block";
+  e.preventDefault();
+}
+
 function calculate(e) {
   e.preventDefault();
   const bill = document.querySelector('#bill').value;
@@ -12,7 +19,7 @@ function calculate(e) {
     Swal.fire({
       icon: 'error',
       title: 'Error!',
-      text: 'Please emter your information!',
+      text: 'Please enter your information!',
     })};
 
   let perPerson = bill/people;
@@ -21,9 +28,11 @@ function calculate(e) {
 
  perPerson = perPerson.toFixed(2);
  amountTip = amountTip.toFixed(2);
-total = total.toFixed(2);
+ total = total.toFixed(2);
 
   document.querySelector('#billSplit').textContent = perPerson;
   document.querySelector('#tipSplit').textContent = amountTip;
   document.querySelector('#checkSplit').textContent = total;
+
+
 }
