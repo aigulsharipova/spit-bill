@@ -18,10 +18,14 @@ form {
 display: flex;
 flex-direction: column;
 padding: 20px;
+margin: 20px;
 }
 h1 {
   font-family: 'Mochiy Pop One', sans-serif;
   text-align: center;
+}
+input {
+  padding: 5px;
 }
 #btn1 {
 background-color: rgb(153, 153, 220);
