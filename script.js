@@ -11,4 +11,7 @@ function calculate(e) {
   if (bill === "" || people === "") {
     alert("error");
   }
+
+  let perPerson = bill/people;
+  let amountTip = (bill * tip) / people;
 }
