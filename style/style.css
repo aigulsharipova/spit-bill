@@ -5,7 +5,7 @@ body {
   background-position: center;
 }
 #container {
-background-color:  rgb(229, 221, 179);
+background-color:  #cccccc;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -41,7 +41,7 @@ padding: 8px;
 font-family: 'Rubik', sans-serif;
 font-size: 15px;
 }
-#calculate {
+#btn2 {
   background-color: white;
   padding: 8px;
   border-radius: 8px;
