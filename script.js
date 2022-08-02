@@ -8,9 +8,12 @@ function calculate(e) {
   const people= document.querySelector('#bill').value;
   const tip = document.querySelector('#tip').value;
 
-  if (bill === "" || people === "") {
-    alert("error");
-  }
+  if (bill === "" || people === "" || people < 1) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Error!',
+      text: 'Please emter your information!',
+    })};
 
   let perPerson = bill/people;
   let amountTip = (bill * tip) / people;
