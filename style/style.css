@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgb(236, 240, 244);
 }
 #container {
 background-color:  #cccccc;
