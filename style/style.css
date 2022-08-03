@@ -1,9 +1,9 @@
 body {
-  background-image: url('./photo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(236, 240, 244);
+background-image: url('./photo.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: rgb(236, 240, 244);
 }
 #container {
 background-color:  #cccccc;
@@ -22,17 +22,17 @@ padding: 20px;
 margin: 20px;
 }
 h1 {
-  font-family: 'Mochiy Pop One', sans-serif;
-  text-align: center;
-  color:black;
+font-family: 'Mochiy Pop One', sans-serif;
+text-align: center;
+color:black;
 }
 p {
-  font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+font-family: 'Rubik', sans-serif;
+font-size: 20px;
 }
 input {
-  padding: 6px;
-  font-family: 'Rubik', sans-serif;
+padding: 6px;
+font-family: 'Rubik', sans-serif;
 }
 #btn1 {
 background-color: white;
@@ -43,27 +43,33 @@ font-family: 'Rubik', sans-serif;
 font-size: 15px;
 }
 #btn2 {
-  background-color: white;
-  padding: 8px;
-  border-radius: 8px;
-  border: none;
-  margin-top: 10px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 15px;
+background-color: white;
+padding: 8px;
+border-radius: 8px;
+border: none;
+margin-top: 10px;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+}
+#tip {
+font-family: 'Rubik', sans-serif;
+display: none;
+}
+#check {
+display: flex;
+justify-content: center;
+}
+#billSplit, #tipSplit, #checkSplit {
+font-family: 'Montserrat', sans-serif;
+background-color:white;
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid black;
+}
+@media all and (max-width: 800px){
+  .container{
+    flex-direction: column;
+    height: 100vh;
   }
-  #tip {
-    font-family: 'Rubik', sans-serif;
-    display: none;
-  }
-  #check {
-  display: flex;
-  justify-content: center;
-  }
-  #billSplit, #tipSplit, #checkSplit {
-    font-family: 'Montserrat', sans-serif;
-    background-color:white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid black;
-  }
+}
